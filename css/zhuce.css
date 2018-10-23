@@ -1,0 +1,126 @@
+@charset="UTF-8"
+.one{
+	width: 100%;
+	height: 600px;
+	background-color: #ffaa62;
+}
+.one-1{
+	width: 100%;
+	height: 80px;
+	background-color: white;
+	float: left;
+}
+.one-2{
+	width: 100%;
+	height: 520px;
+	background-color: #f2e3e3;
+	float: left;
+}
+.kong{
+	float: left;
+	width: 25%;
+	height: 520px;
+	background-color: blue;
+}
+.one-2-1{
+	float: left;
+	width:50%;
+	height: 520px;
+	background-color: #d6b0e2;
+}
+.bai{
+	float: left;
+	width: 25%;
+	height: 520px;
+	background-color: red;
+}
+.one-1 img{
+	width: 14%;
+	float: left;
+	position: relative;
+	left: 80px;
+
+}
+.one-1-1{
+	float: left;
+	width: 50%;
+	height: 80px;
+	background-color: white;
+	margin: 0 138px;
+}
+.one-1-1 ol li{
+	float: left;
+	margin:25px 28px;
+	color: #000;
+}
+a{
+	text-decoration: none; 
+	color: #000;
+}
+ a:hover{
+	text-decoration: underline;
+	color: #ff0000;
+}
+.kong img{
+	width: 100%;
+	height: 520px;
+}
+
+.o{
+	float: left;
+	width: 100%;
+	height: 100px;
+	background-color: #d6b0e2;
+}
+.n{
+	float: left;
+	width: 100%;
+	height: 100px;
+	background-color: #d6b0e2;
+}
+.e{
+	float: left;
+	width: 100%;
+	height: 100px;
+	background-color: #d6b0e2;
+}
+.o span{
+	position: relative;
+	left: 100px;
+	top: 60px;
+}
+.o-1{
+	position: relative;
+	left: 165px;
+	top: 41px;
+}
+.phone{
+	position: relative;
+	left: 303px;
+	top: 18px;
+}
+.n span{
+	position: relative;
+	left: 115px;
+	top: 19px;
+}
+.num{
+	position: relative;
+	left: 165px;
+	top: 0px;
+}
+.num1{
+	position: relative;
+	left: 88px;
+	top:21px;
+}
+.bai img{
+	width: 100%;
+	height: 520px;
+}
+.e ul li {
+	list-style: none;
+	float: right;
+	margin-right:150px;
+	margin-top:18px;
+}

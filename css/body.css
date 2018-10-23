@@ -1,0 +1,852 @@
+@charset="UTF-8"
+/*这是头部*/
+	.one{
+		width:100%;
+		height:50px;
+		background-color:#f2f2f2;
+	}
+	.one1{
+		width:400px;
+		height:50px;
+		line-height:50px;
+	}
+	.one1 span{
+		margin-left:10px;
+	}
+	.one1 span a{
+		text-decoration: none;
+        color: #000;
+	}
+	.one span a:hover{
+		color:red;
+	}
+	.one2{
+		width:700px;
+		height:50px;
+		margin-top:-50px;
+		line-height: 50px;
+		float:right;
+	}
+	.one2 span{
+		margin-left:10px;
+	}
+	.one2 img{
+		width:18px;
+		height:18px;
+		margin-top: 2px;
+	}
+    /*这是搜索框部分*/
+	.two{
+		width:100%;
+		height:250px;
+	}
+	.two1{
+		width:300px;
+		height:250px;
+	}
+	.two1-1 img{
+		margin:40px;
+	}
+	.two1-2 img{
+	    margin-left: 80px;
+	    height: 49px;
+	}
+	.two1-3{
+		width:250px;
+		height:50px;
+		background-color:red;
+		margin-left:15px;
+		margin-top:-4px;
+		line-height:50px;
+		}
+	.two1-3 img{
+		width:20px;
+		margin-left: 70px;
+	}
+	.two1-3 span{
+		font-size: 18px;
+	}
+	.two2{
+		width:1035px;
+		height:250px;
+		float:right;
+		margin-top:-250px;
+	}
+	.two2-1{
+		width:500px;
+		height:55px;
+		margin:45px 200px;
+		border:3px solid red;
+	}
+	.two2-1-1{
+		width:350px;
+		height:55px;
+		line-height:55px;
+		text-align:left;	
+	}
+	.two2-1-1 input{
+		width:350px;
+		height:55px;
+		font-size: 18px;
+		border:none;		
+	}
+	.two2-1-2 img{
+		width:150px;
+		height:55px;
+		float:right;
+		margin-top:-55px;
+	}
+	.two2-2{
+		width:506px;
+		height:55px;
+		margin:-45px 200px;
+	}
+	.two2-2 span{
+		margin-left:10px;
+		font-size: 18px;
+		line-height: 55px;
+	}
+	.two2-2 span:nth-child(2){
+		color:red;
+	}
+	.two2-2 span:nth-child(6){
+		color:red;
+	}
+	.two2-3{
+		width:1015px;
+		height:50px;
+		margin:85px 20px;
+	}
+	.two2-3-1{
+		width:150px;
+		height:50px;
+        line-height: 50px;
+	}
+	.two2-3-1 span{
+		font-family: "Microsoft YaHei";
+		font-size: 20px;
+		float:right;  
+	}
+	.two2-3-2{
+		width:150px;
+		height:50px;
+        line-height: 50px;
+        float:left;
+        margin:-50px 180px 0px;
+	}
+	.two2-3-2 span{
+		font-family: "Microsoft YaHei";
+		font-size: 20px;
+		float:right;  
+	}
+	.two2-3-3{
+		width:684px;
+		height:50px;
+		float:right;
+		margin-top:-50px;
+		line-height: 50px;
+	}
+	.two2-3-3 span{
+		font-family: "Microsoft YaHei";
+		font-size: 20px;
+		margin-left: 18px;
+	}
+	div.two2-3-3 span:hover{
+		color:red;
+	}
+    /*这是下面的各种图*/
+	.three{
+		width:100%;
+		height:600px;
+	}
+	.three img{
+		width:80%;
+		height:600px;
+		margin-left:265px;
+	}
+    .three1{
+    	width:250px;
+		height:600px;
+    	background-color: #686868;
+    	float:left;
+    	margin-top: -605px;
+    	margin-left: 15px;
+    }
+    .three1-1{
+    	width:250px;
+    	height:40px;
+    	float:left;
+    	line-height: 40px;
+    }
+    .three1-1 img{
+    	height:20px;
+    	width: 20px;
+    	float:left;
+    	margin-left: 12px;
+    	margin-top: 10px;
+    }
+    .three2-1{
+    	width:250px;
+    	height:40px;
+    	float:left;
+    	line-height: 40px;
+    }
+    .three2-1 img{
+    	height:20px;
+    	width: 20px;
+    	float:left;
+    	margin-left: 12px;
+    	margin-top: 10px;
+    }
+    .three3-1{
+    	width:250px;
+    	height:40px;
+    	float:left;
+    	line-height: 40px;
+    }
+    .three3-1 img{
+    	height:20px;
+    	width: 20px;
+    	float:left;
+    	margin-left: 12px;
+    	margin-top: 10px;
+    }
+    .three4-1{
+    	width:250px;
+    	height:40px;
+    	float:left;
+    	line-height: 40px;
+    }
+    .three4-1 img{
+    	height:20px;
+    	width: 20px;
+    	float:left;
+    	margin-left: 12px;
+    	margin-top: 10px;
+    }
+    .three5-1{
+    	width:250px;
+    	height:40px;
+    	float:left;
+    	line-height: 40px;
+    }
+    .three5-1 img{
+    	height:20px;
+    	width: 20px;
+    	float:left;
+    	margin-left: 12px;
+    	margin-top: 10px;
+    }
+    .three6-1{
+    	width:250px;
+    	height:40px;
+    	float:left;
+    	line-height: 40px;
+    }
+    .three6-1 img{
+    	height:20px;
+    	width: 20px;
+    	float:left;
+    	margin-left: 12px;
+    	margin-top: 10px;
+    }
+    .three7-1{
+    	width:250px;
+    	height:40px;
+    	float:left;
+    	line-height: 40px;
+    }
+    .three7-1 img{
+    	height:20px;
+    	width: 20px;
+    	float:left;
+    	margin-left: 12px;
+    	margin-top: 10px;
+    }
+    .three8-1{
+    	width:250px;
+    	height:40px;
+    	float:left;
+    	line-height: 40px;
+    }
+    .three8-1 img{
+    	height:20px;
+    	width: 20px;
+    	float:left;
+    	margin-left: 12px;
+    	margin-top: 10px;
+    }
+    .three9-1{
+    	width:250px;
+    	height:40px;
+    	float:left;
+    	line-height: 40px;
+    }
+    .three9-1 img{
+    	height:20px;
+    	width: 20px;
+    	float:left;
+    	margin-left: 12px;
+    	margin-top: 10px;
+    }
+    .three10-1{
+    	width:250px;
+    	height:40px;
+    	float:left;
+    	line-height: 40px;
+    }
+    .three10-1 img{
+    	height:20px;
+    	width: 20px;
+    	float:left;
+    	margin-left: 12px;
+    	margin-top: 10px;
+    }
+    .three11-1{
+    	width:250px;
+    	height:40px;
+    	float:left;
+    	line-height: 40px;
+    }
+    .three11-1 img{
+    	height:20px;
+    	width: 20px;
+    	float:left;
+    	margin-left: 12px;
+    	margin-top: 10px;
+    }
+    .three12-1{
+    	width:250px;
+    	height:40px;
+    	float:left;
+    	line-height: 40px;
+    }
+    .three12-1 img{
+    	height:20px;
+    	width: 20px;
+    	float:left;
+    	margin-left: 12px;
+    	margin-top: 10px;
+    }
+    .three13-1{
+    	width:250px;
+    	height:40px;
+    	float:left;
+    	line-height: 40px;
+    }
+    .three13-1 img{
+    	height:20px;
+    	width: 20px;
+    	float:left;
+    	margin-left: 12px;
+    	margin-top: 10px;
+    }
+    .three14-1{
+    	width:250px;
+    	height:40px;
+    	float:left;
+    	line-height: 40px;
+    }
+    .three14-1 img{
+    	height:20px;
+    	width: 20px;
+    	float:left;
+    	margin-left: 12px;
+    	margin-top: 10px;
+    }
+    .three15-1{
+    	width:250px;
+    	height:40px;
+    	float:left;
+    	line-height: 40px;
+    }
+    .three15-1 img{
+    	height:20px;
+    	width: 20px;
+    	float:left;
+    	margin-left: 12px;
+    	margin-top: 10px;
+    }
+	.four{
+		width:100%;
+		height:300px;
+		background-color:grey;
+	}
+	.five{
+		width:100%;
+		height:300px;
+		background-color:#ccc;
+	}
+
+    .A{
+        width:1350px;
+        height:600px;
+    }
+    .A1{
+        width:650px;
+        height:40px;
+        float:right;
+    }
+    .A1 span {
+        margin-left: 10px;
+        height:40px;
+        text-align: center;
+        line-height: 40px;
+    }
+    .A1 span:hover{
+        display: inline-block;
+        border-bottom: 1px solid red;
+        height: 40px;
+
+    }
+    .B1 span:hover{
+        display: inline-block;
+        border-bottom: 1px solid red;
+        height: 40px;  
+    }
+    .D1 span:hover{
+        display: inline-block;
+        border-bottom: 1px solid red;
+        height: 40px;  
+    }
+    .E1 span:hover{
+        display: inline-block;
+        border-bottom: 1px solid red;
+        height: 40px;  
+    }
+    .A2 img{
+        width:300px;
+        height:580px;
+        margin-top:20px;
+    }
+    .A2-1 img{
+        width:1030px;
+        height:265px;
+        float:right;
+        margin-top:-550px;
+    }
+    .A2-2 img{
+        width:1030px;
+        height:265px;
+        float:right;
+        margin-top:-270px;
+    }
+    .B{
+        width:1350px;
+        height:600px;
+    }
+    .B1{
+        width:250px;
+        height:40px;
+        float:right;
+    }
+    .B1 span{
+        margin-left: 10px;
+        height:40px;
+        text-align: center;
+        line-height: 40px;
+    }
+    .B2{
+        width:300px;
+        height:580px;
+    }
+    .B2 img{
+        width:300px;
+        height:280px;
+        margin-top:8px;
+    }
+    .B3{
+       width:1030px;
+       height:600px;
+       float:right;
+    }
+    .B3-1 img{
+       width:1030px;
+       height:250px;
+       float:right;
+       margin-top:-545px;
+    }
+    .B3-2 img{
+       width:1030px;
+       height:275px;
+       float:right;
+       margin-top:-275px;
+    }
+    .C{
+        width:1350px;
+        height:150px;
+    }
+    .C img{
+        width:1350px;
+        height:150px;
+        float:left;
+        margin-top:-600px;
+    }
+    .D{
+        width:1350px;
+        height:600px;
+    }
+    .D1{
+        width:600px;
+        height:40px;
+        float:right;
+        margin-top:-450px;
+    }
+    .D span{
+        margin-left:10px;
+        text-align:center;
+        line-height: 40px;
+    }
+    .D2{
+        width:300px;
+        height:600px;
+    }
+    .D2 img{
+        width:300px;
+        height:580px;
+        margin-top:20px;
+    }
+    .D3{
+        width:1050px;
+        height:547px;
+        float:right;
+        margin-top:-550px;
+    }
+    .D3-1{
+        width:1030px;
+        height:270px;
+    }
+    .D3-1 img{
+        width:1030px;
+        height:262px;
+        margin-left: 20px;
+        }
+    .D3-2 img{
+        width:1030px;
+        height:262px;
+        margin-top:17px;
+        margin-left: 25px;
+        }
+    .E{
+        width:1350px;
+        height:600px;
+    }
+    .E-1{
+        width:720px;
+        height:40px;
+        float:right;
+    }
+    .E-1 span{
+        margin-left:10px;
+        height:40px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .E-2{
+        width:300px;
+        height:580px;
+        margin-top:19px;
+        float:left;
+    }
+    .E-2 img{
+        width:300px;
+        height:580px;
+    }
+    .E-3{
+        width:1020px;
+        height:260px;
+        float:right;
+        margin-top:10px;
+    }
+     .E-3 img{
+        width:1020px;
+        height:260px;
+    }
+    .E-4{
+        width:1020px;
+        height:260px;
+        float:right;
+        margin-top:28px;
+    }
+    .E-4 img{
+        width:1020px;
+        height:260px;
+    }
+    .ei{
+        width: 100%;
+        height: 6126px;
+        background-color: white;
+    }
+    .ei-1{
+        width: 100%;
+        height: 50px;
+        background-color: #f5f5f5;
+    }
+    .ei-2{
+        width: 100%;
+        height: 6076px;
+        background-color: white;
+    }
+    .ei-1-1 img{
+        margin:15px 574px; 
+    }
+    .ei-1-2{
+        float: left;
+        margin:20px -570px;
+    }
+    .ei-1-3{
+        float: left;
+        margin: 18px -500px;
+    }
+    .ei-2 img{
+        width: 92%;
+        height: 300px;
+        margin: 0px 62px;
+    }
+    /*这是尾部*/
+    #footer{
+    width:100%;
+    height:600px;
+    background-color: black;
+   }
+   .first{
+    width:100%;
+    height:100px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   }
+   .a{
+    width:300px;
+    height:100px;
+   }
+   .img{
+    width:55px;
+    height:55px;
+    float:left;
+    margin-top: 20px;
+   }
+   .span{
+    width:200px;
+    height:100px;
+    float:left;
+    margin-left: 20px;
+   }
+    .span1{font-weight: bold;
+                font-size: 16px;}
+    .span2{color:#CBCBCB;
+                font-size: 16px; }
+  .b{
+    width:1325px;
+    height:2px;
+    background-color:#cbcbcb;
+  }
+  .second{
+    width:100%;
+    height:220px;
+    background-color:white;
+    float:left;
+    margin-top:-500px;
+  }
+ .c{
+    width:100%;
+    height:220px;
+    background-color:white;
+ }
+ #shop{
+    width:200px;
+    height:180px;
+    float:left;
+    margin:30px 70px ;
+ }
+ #shop dt{
+    width: 150px;
+    height: 30px;
+   color: #646464;
+   font-weight: bold;
+   font-size: 20px;
+ }
+  #shop dd{
+    color:gray;
+    margin-top:5px;
+ }
+ #tianmao{
+    width:200px;
+    height:180px;
+    float:left;
+    margin-top:30px;
+ }
+  #tianmao dt{
+    width: 150px;
+    height: 30px;
+   color: #646464;
+   font-weight: bold;
+   font-size: 20px;
+ }
+  #tianmao dd{
+    color:gray;
+    margin-top:5px;
+ }
+ #fangshi{
+    width:200px;
+    height:180px;
+    float:left;
+    margin-left:80px;
+    margin-top:35px;
+ }
+ #fangshi dt{
+    width: 150px;
+    height: 30px;
+   color: #646464;
+   font-weight: bold;
+   font-size: 20px;
+ }
+  #fangshi dd{
+    color:gray;
+    margin-top:5px;
+ }
+ #fuwu{
+    width:200px;
+    height:150px;
+    float:left;
+    margin-left:80px;
+    margin-top:35px;
+ }
+ #fuwu dt{
+    width: 150px;
+    height: 30px;
+   color: #646464;
+   font-weight: bold;
+   font-size: 20px;
+ }
+  #fuwu dd{
+    color:gray;
+    margin-top:5px;
+ }
+ .d{
+    width:200px;
+    height:50px;
+    float:right;
+ }
+.on{
+   color: #646464;
+   font-weight: bold;
+   float:left;
+   font-size: 20px;
+   margin: 40px;
+ }
+ .d img{
+    margin-top:-35px;
+    margin-left:30px;
+ }
+ .up{
+    width:50px;
+    height:50px;
+ }
+.up>img{
+    float:left;
+    margin-top: -43px;
+    margin-left:80px;
+}
+ .e{
+    width:1000px;
+    height:30px;
+    margin-top:-280px;
+    margin-left:40px;
+    line-height: 30px;
+ }
+ .e span{
+    margin-left: 5px;
+    font-weight: bold;
+    color:white;
+    font-size: 15px;
+ }
+ .f{
+    width:1100px;
+    height:30px;
+    margin-left:40px;
+    line-height: 30px;
+ }
+ .f span{
+    margin-left: 5px;
+    font-weight: bold;
+    color:white;
+    font-size: 15px;
+ }
+ .h{
+    width:1200px;
+    height:30px;
+    margin-left:40px;
+    line-height: 30px;
+ }
+ .h span{
+    margin-left: 5px;
+    color:white;
+    font-size: 5px;
+    font-size: 15px;
+ }
+ .i{
+    width:1250px;
+    height:40px;
+    margin-left:40px;
+    line-height: 40px;
+ }
+ .i span{
+    font-size: 15px;
+    color:white;
+ }
+ .i-2{
+    float:right;
+    margin-right: 50px;
+    margin-top: -40px;
+ }
+ .g{
+    width:200px;
+    height:30px;
+    margin-left:40px;
+    line-height: 30px;
+ }
+ .g span{
+    font-size: 15px;
+    color:white;
+ }
+ .k{
+    width:400px;
+    height:30px;
+    margin-left:40px;
+    line-height: 30px;
+ }
+ .k span{
+    font-size: 15px;
+    color:white;
+ }
+ .l{
+    width:400px;
+    height:30px;
+    margin-left:40px;
+    line-height: 30px;
+ }
+ .l span{
+    font-size: 15px;
+    color:white;
+ }
+ .m{
+    width:400px;
+    height:55px;
+    margin-left: 40px; 
+ }
+ .m img{
+    width:100px;
+    height:55px;
+    margin-left: 30px;
+ }
+ .right{
+    width: 100px;
+    height: 600px;
+    position: fixed;
+    right: -70px;
+    bottom: 80px;
+ }
+
+
